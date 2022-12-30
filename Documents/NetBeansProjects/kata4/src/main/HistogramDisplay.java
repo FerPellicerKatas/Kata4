@@ -43,6 +43,7 @@ public class HistogramDisplay extends ApplicationFrame {
         return chart;
     }
     
+    
     private DefaultCategoryDataset createDataset(){
         DefaultCategoryDataset dataSet = new DefaultCategoryDataset();
         for (String key : histogram.keySet()){
